@@ -4,47 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Isabela Cardoso</title>
+
+    <style>
+
+/****** tutorial de como criar um menu fixo aprendido pelo canal do YouTube Danki Code, 08/2020 - link https://www.youtube.com/watch?v=vJJyytQcOLI *****/
+
+        /**** menu fixo ****/
+       * {
+           margin: 0;padding: 0;box-sizing: border-box;
+       } 
+       .center {
+           max-width: 1100px;
+           margin: 0 auto;
+           padding: 0 2%;
+       }
+       header {
+           position: fixed;
+           left: 0;
+           top: 0;
+           width: 100%;
+           padding: 9px 0;
+           text-align: center;
+           background: rgba(29, 11, 21, 1);
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       header li{
+           display: inline-block;
+           margin: 0 10px;
+       }
+       header a{
+           text-decoration: none;
+           color: rgba(240, 235, 188, 1);
+       } 
+      
+       /**** como criar colunas aprendido em: https://www.youtube.com/watch?v=6YJ2Vb7Eyfg ****/
+       /**** como criar margens aprendido em: https://www.youtube.com/watch?v=LUt4h0UT0PE ****/
+        /**** colunas - a finalizar ****/
+
+        .sessao-principal {
+            border: rgba(29, 11, 21, 1) solid 8px;
+            float: left;
+            width: 70%;
+            padding: 10px;
+            
+        }
+        .barra-lateral {
+            background-color: rgba(189, 114, 104, 1);
+            float: right;
+            width: 30%;
+        }
+
+        body {
+
+            padding-top: 65px;
+            padding-left: 4%;
+            text-align: justify;
+            margin-left: 25px;
+            background-color: rgba(240, 235, 188, 1);
+        }
+        h1 { 
+            color: rgba(29, 11, 21, 1);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #fotoisa {
+            border-radius: 50%;
+            border: salmon;
+        }
+
+        .titulos {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgba(29, 11, 21, 1);
+        }
+        p {            
+            text-align: justify;
+            line-height: 20px;
+            padding-bottom: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(24, 24, 24)
+            
+            
+        }
+        li {
+            list-style-type: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(24, 24, 24)
+        }
+
+        #qualidades {
+            list-style: none;
+        }
+        #link-linkedin {
+            text-decoration: none;
+        }
+        </style>
 </head>
 <body>
-    <h1>Olá, eu sou a Isabela. Prazer!</h1>
-    <img src="Foto-Isabela.jpg" alt="foto Isabela Cardoso" width="200">
-    <br>
-    <h2>Índice</h2>
-    <ul>
-        <li><a href="#sobre-mim">Sobre mim</a></li>
-        <li><a href="#habilidades">Habilidades e Qualidades</a></li>
-        <li><a href="#outros">Outros interesses</a></li>
-        <li><a href="#outros">Onde me encontrar</a></li>
+    <section class="sessao-principal">
+    <header>
+    
+        <div class="center">
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Educação e Habilidades</a></li>
+                <li><a href="qualidades">Qualidades</a></li>
+                <li><a href="#outros">Outros interesses</a></li>
+                <li><a href="#outros">Onde me encontrar</a></li>
+        </div>
+        </ul>
 
-    </ul>
+    </header>
+    <h1>Olá, eu sou a Isabela. Prazer!</h1><br>
+    <img id = "fotoisa" src="Foto-Isabela.jpg" alt="foto Isabela Cardoso" width="200" border-radius: 60%>
+    <br><br>
 
-
-    <h2 id="sobre-mim">Sobre mim</h3>
+    <h2 class="titulos" id="sobre-mim">Sobre mim</h3>
     <p>
+        <br>
         
         Meu nome é Isabela Cardoso, tenho 26 anos e sou de Belo Horizonte, Minas Gerais, Brasil. <br>
-        Em agosto de 2020 iniciei minha trajetória para me tornar uma Desenvolvedora Web Full Stack Junior. <br>
+        Em agosto de 2020 iniciei meus estudos na Trybe para me tornar uma Desenvolvedora Web Full Stack. <br>
         Sou formada em Comunicação Social com habilitação em Relações Públicas, Produtora Executiva de Eventos e amo viver experiências novas e desafiadoras!
     
     </p>
-
-    <h3 id="habilidades">Habilidades e Qualidades</h3>
+    <br>
+    <h3 class="titulos" id="habilidades">Educação e Habilidades</h3>
+    <br>
     <ul>
+        <li>Graduada em Comunicação Social com habilitação em Relações Públicas - UFMG</li>
         <li>Inglês Intermediário</li>
+        <li>HTML - Básico</li>
+        <li>CSS - Básico</li>
         <li>Ferramentas Google - Gmail, Drive Documentos e Planilhas</li>
-        <li>Organizada</li>
-        <li>Dedicada e Proativa</li>
-        <li>Espírito de Equipe</li>
-        <li>Criativa</li>
-        <li>Confiável</li>
     </ul>
+    <br>
 
+    <h3 class="titulos" id="qualidades">Qualidades</h3>
+    <br>
+    <ul>
+        <li>Proativa</li>
+        <li>Espírito de Equipe</li>
+        <li>Organizada</li>
+        <li>Dedicada</li>
+        <li>Criativa</li>
+    </ul>
+    <br>
 
-    <h4 id="outros">Outros Interesses e Onde me Encontrar</h4>
-        <p>Quando não estou trabalhando para me tornar uma desenvolvedora, certamente estarei cozinhando (Go vegan!) ou me divertindo com amigos e família. <br>
-        Você pode me encontrar também no <a href="https://www.linkedin.com/in/isabelapcardoso/" >LinkeIn.</p>
-        <img src="linkedin-logo.png" alt="Logo do site Linkedin" width=30px>
+    <h3 class="titulos" id="outros">Outros Interesses e Onde me Encontrar</h3>
+    <br>
+        <p>Quando não estou estudando para me tornar uma desenvolvedora, certamente estarei cozinhando (Go vegan!) ou me divertindo com amigos e família. <br>
+        Você pode me encontrar também no LinkeIn abaixo: <a href="https://www.linkedin.com/in/isabelapcardoso/" ></p>
+        <img id="link-linkedin" src="linkedin-logo.png" alt="Logo do site Linkedin" width=40px>
         </a>
+    </section>
+    <aside class="barra-lateral">
 
+
+    </aside>
 </body>
 </html>
