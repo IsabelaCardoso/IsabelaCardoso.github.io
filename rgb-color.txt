@@ -1,0 +1,29 @@
+Amarelo pastal
+HEX : #fee394
+RGB : 254, 227, 148
+HSL  : 44, 98%, 78%
+
+Rosa
+HEX : #ecaf91
+RGB : 236, 175, 145
+HSL  : 19, 70%, 74%
+
+Azul
+HEX : #daecd6
+RGB : 218, 236, 214
+HSL  : 109, 36%, 88%
+
+Verde escuro
+HEX : #314737
+RGB : 49, 71, 55
+HSL  : 136, 18%, 23%
+
+Cinza fundo
+HEX : #f8f5ec
+RGB : 248, 245, 236
+HSL  : 45, 46%, 94%
+
+Cinza escuro
+HEX : #444444
+RGB : 68, 68, 68
+HSL  : 360, 0%, 26%

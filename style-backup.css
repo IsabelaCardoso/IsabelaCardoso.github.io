@@ -1,0 +1,102 @@
+
+/****** tutorial de como criar um menu fixo aprendido pelo canal do YouTube Danki Code, 08/2020 - link https://www.youtube.com/watch?v=vJJyytQcOLI *****/
+
+        /**** menu fixo ****/
+       * {
+           margin: 0;padding: 0;box-sizing: border-box;
+       } 
+       .menu-fixo {
+           max-width: 1100px;
+           margin: 0 auto;
+           padding: 0 2%;
+           font-family: monospace;
+        
+       }
+       header {
+           position: fixed;
+           left: 0;
+           top: 0;
+           width: 100%;
+           padding: 9px 0;
+           text-align: center;
+           background: rgba(29, 11, 21, 1);
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       header li{
+           display: inline-block;
+           margin: 0 10px;
+       }
+       header a{
+           text-decoration: none;
+           color: rgba(240, 235, 188, 1);
+       } 
+      
+       /**** como criar colunas aprendido em: https://www.youtube.com/watch?v=6YJ2Vb7Eyfg ****/
+       /**** como criar margens aprendido em: https://www.youtube.com/watch?v=LUt4h0UT0PE ****/
+        /**** colunas - a finalizar ****/
+
+        .sessao-principal {
+            border: rgba(29, 11, 21, 1) solid 2px;
+            text-align: justify
+            float: left;
+            width: 70%;
+            padding: 10px;
+            
+        }
+        .barra-lateral {
+            background-color: rgba(189, 114, 104, 1);
+            float: right;
+            width: 30%;
+        }
+
+        body {
+
+            padding-top: 65px;
+            padding-left: 4%;
+            text-align: justify;
+            margin-left: 25px;
+            background-color: rgba(240, 235, 188, 1);
+        }
+        h1 { 
+            color: rgba(29, 11, 21, 1);
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        h2 { 
+            color: rgba(29, 11, 21, 1);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+        }
+
+
+        #fotoisa {
+            border-radius: 50%;
+            border: salmon;
+        }
+
+        .titulos {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgba(29, 11, 21, 1);
+        }
+        p {            
+            text-align: justify;
+            line-height: 20px;
+            padding-bottom: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(24, 24, 24)
+            
+            
+        }
+        li {
+            list-style-type: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(24, 24, 24)
+        }
+
+        #qualidades {
+            list-style: none;
+        }
+        #link-linkedin {
+            text-decoration: none;
+        }
+        </style>

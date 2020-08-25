@@ -1,0 +1,126 @@
+
+/****** tutorial de como criar um menu fixo aprendido pelo canal do YouTube Danki Code, 08/2020 - link https://www.youtube.com/watch?v=vJJyytQcOLI *****/
+
+        /**** menu fixo ****/
+       * {
+           margin: 0;padding: 0;box-sizing: border-box;
+       } 
+       .menu-fixo {
+           max-width: 1100px;
+           margin: 0 auto;
+           padding: 0 2%;
+           font-family: monospace;
+        
+       }
+       header {
+           position: fixed;
+           left: 0;
+           top: 0;
+           width: 100%;
+           padding: 9px 0;
+           text-align: center;
+           background: rgb(49,71,55);
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: smaller;
+        }
+       header li{
+           display: inline-block;
+           margin: 0 10px;
+       }
+       header a{
+           text-decoration: none;
+           color: rgba(240, 235, 188, 1);
+       } 
+        /**** todo conteúdo menos o menu fixo ****/
+
+        body {
+            padding-top: 55px;
+            padding-left: 15%;
+            text-align: justify;
+            padding-right: 15%;
+
+        }
+        /**** a partir do "Sobre mim" ****/ 
+
+        .bloco-texto {
+            margin-top: 25%;
+            margin-right: 20%;
+            margin: 15px;
+            padding-top: 8%;
+            border: rgba(29, 11, 21, 1) solid 2px;
+            padding: 5%;
+        
+        }
+
+        /**** bloco rosa + foto ****/
+
+        #foto-e-nome {
+            background-color: #ecaf91;
+            margin: 15px;
+            padding: 6%;
+            font-size: 25px;
+            color: rgba(29, 11, 21, 1);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /**** h1 e h2 = Nome + subtítulo ****/
+        h1 { 
+            font-weight: 900 bolder;
+        }
+        h2 { 
+            font-size: 18px;
+            font-weight: bolder;
+        }
+
+        #fotoisa {
+            border-radius: 50%;
+            float: right;
+        }
+
+        .titulos {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgba(29, 11, 21, 1);
+            padding-bottom: 4%;
+            padding-top: 5%;
+        }
+        p {            
+            text-align: justify;
+            font-family: 'Anonymous Pro', monospace;
+            color: rgb(24, 24, 24)
+            
+        }
+        
+        ul {
+            font-family: 'Anonymous Pro', monospace;
+            color: rgb(24, 24, 24);
+            list-style: none;
+            
+        }
+        .logos-e-contatos {
+            padding-left: 30%
+            margin: auto;
+            padding-bottom: 5%;
+        }
+
+        .logos-container {
+            width: 30%;
+            text-align: center;
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        .logos-container h4 {
+            margin: 10px 0;
+            padding-top: 5%;
+            font-family: 'Anonymous Pro', monospace;
+            color: rgb(24, 24, 24)
+            
+        }
+
+        .logos-container a {
+            text-decoration: none;
+
+        }
+            
+
+        
